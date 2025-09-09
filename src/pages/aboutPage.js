@@ -24,16 +24,17 @@ const AboutPage = () => {
   return (
     <section className="about-section py-5 bg-white" id="about">
       <Container>
+        {/* ===== About Me ===== */}
         <Row className="mb-4">
           <Col>
             <h2 className="fw-bold text-center">About Me</h2>
             <p className="text-muted text-center">
-              Who I am, what I do, and why I do it.
+              Who I am, My skills, My Experience.
             </p>
           </Col>
         </Row>
 
-        <Row className="align-items-center">
+        <Row className="align-items-center mb-5">
           <Col md={6}>
             <p>
               I'm <strong>Samson Younis Osman</strong>, a passionate Full Stack Software Engineer with 4+ years of hands-on experience. I specialize in building scalable web applications, microservices, and REST APIs using Java, Spring Boot, React, and Python.
@@ -68,6 +69,74 @@ const AboutPage = () => {
                   <a href="https://www.linkedin.com/in/samson-osman-a19871226" target="_blank" rel="noreferrer" className="ms-2 text-decoration-none">LinkedIn</a> | 
                   <a href="https://github.com/samsonyounis" target="_blank" rel="noreferrer" className="ms-2 text-decoration-none">GitHub</a> | 
                   <a href="https://www.youtube.com/@Samson.CodeArchive" target="_blank" rel="noreferrer" className="ms-2 text-decoration-none">YouTube</a>
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        {/* ===== Work Experience ===== */}
+        <Row id="experience">
+          <Col>
+            <h3 className="fw-bold text-center mb-4">Work Experience</h3>
+          </Col>
+        </Row>
+
+        <Row className="gy-4">
+          <Col md={6}>
+            <Card className="shadow-sm border-0 h-100">
+              <Card.Body>
+                <Card.Title className="fw-bold">Mobile Developer</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Eclectics International Ltd | Nairobi, Kenya</Card.Subtitle>
+                <small className="text-muted">June 2022 – Sep 2022</small>
+                <p className="mt-2">
+                  -Designed and implemented Android app UIs
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={6}>
+            <Card className="shadow-sm border-0 h-100">
+              <Card.Body>
+                <Card.Title className="fw-bold">Backend Developer</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">E&M Technology House | Nairobi, Kenya</Card.Subtitle>
+                <small className="text-muted">Nov 2023 – March 2024</small>
+                <p className="mt-2">
+                  - Built microservices and RESTful APIs using Spring Boot<br></br>
+                  - Delivered key projects on schedule with clean documentation
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col md={6}>
+            <Card className="shadow-sm border-0 h-100">
+              <Card.Body>
+                <Card.Title className="fw-bold">Backend Software Engineer</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Eclectics International Ltd | Nairobi, Kenya</Card.Subtitle>
+                <small className="text-muted">April 2024 – May 2025</small>
+                <p className="mt-2">
+                  -Developed and deployed REST APIs using Spring Boot<br></br>
+                  - Designed scalable microservice architectures<br></br>
+                  - Integrated Swagger and Postman for API documentation<br></br>
+                  - Implemented unit and integration tests
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+                    <Col md={6}>
+            <Card className="shadow-sm border-0 h-100">
+              <Card.Body>
+                <Card.Title className="fw-bold">Full Stack Instructor</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">AReL (Action for Refugee Life) | Kakuma, Kenya</Card.Subtitle>
+                <small className="text-muted">May 2025 - Present</small>
+                <p className="mt-2">
+                  -Design of course Curriculum <br></br>
+                  -Teaching Algorithms and Data structures<br></br>
+                  -Teaching frontend technologies: React, Bootstrap<br></br>
+                  - Backend API instruction using Express.js and MongoDB<br></br>
+                  - Mentored students on best practices in software development
                 </p>
               </Card.Body>
             </Card>
