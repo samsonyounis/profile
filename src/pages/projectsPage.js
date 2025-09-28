@@ -43,7 +43,7 @@ const projects = [
     description: 'A platform for online learning, built using React, Express, and MongoDB.',
     tech: ['React', 'Express', 'MongoDB'],
     github: '',
-    demo: 'https://react-lms-frontend.onrender.com'
+    demo: 'https://codearchive.onrender.com/'
   },
 ];
 
